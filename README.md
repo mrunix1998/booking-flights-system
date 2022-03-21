@@ -1,6 +1,23 @@
-[![Build Status](https://travis-ci.com/muthash/flight-booking-flask.svg?branch=develop)](https://travis-ci.com/muthash/flight-booking-flask)
-[![Coverage Status](https://coveralls.io/repos/github/muthash/flight-booking-flask/badge.svg?branch=ch-test-coverage-167084620)](https://coveralls.io/github/muthash/flight-booking-flask?branch=ch-test-coverage-167084620)
-[![Maintainability](https://api.codeclimate.com/v1/badges/fc6831fb0680bdd545a1/maintainability)](https://codeclimate.com/github/muthash/flight-booking-flask/maintainability)
+![Visits Badge](https://badges.pufler.dev/visits/mrunix1998/booking-flights-system)
+![GitHub last commit](https://img.shields.io/github/last-commit/mrunix1998/booking-flights-system)
+[![GitHub issues](https://img.shields.io/github/issues/mrunix1998/booking-flights-system)](https://github.com/mrunix1998/booking-flights-system/issues)
+[![GitHub stars](https://img.shields.io/github/stars/mrunix1998/booking-flights-system)](https://github.com/mrunix1998/booking-flights-system/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/mrunix1998/booking-flights-system)](https://github.com/mrunix1998/booking-flights-system/network)
+
+<a href="https://www.linkedin.com/in/mrunix1998/" style="text-align:center">
+  <img
+    alt="Linkedin"
+    src="https://img.shields.io/badge/linkedin-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"
+  />
+</a>
+
+<a href="https://flask.palletsprojects.com/en/2.0.x/" style="text-align:center">
+  <img
+    alt="Flask"
+    src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"
+  />
+</a>
+
 ## Flight Booking API
 A flight booking flask API that provides users with ability to:
 - Register for an account
@@ -129,6 +146,8 @@ The server will run on http://127.0.0.1:5000/
 ```
 Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9eyJpYXQiO 
 ```
+**Note :** You get user's tokens from /api/login request url in postman.
+
 ### API endpoints
 
 | Endpoint | Method |  Functionality | Authentication |
@@ -146,6 +165,9 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9eyJpYXQiO
 | /api/flight | GET | Add all flight schedules | TRUE
 | /api/v1/booking/<flight_id> | POST | Book a flight | TRUE
 | /api/v1/booking/<flight_id>?bdate=Jul 02 2020 | GET | Get flight booking for a particular day | TRUE
+
+**Note :** Using postman's json exoprt in postman to create some records in postgres database
+
 
 ### Heroku Production Link
 Interact with the hosted application using this link
