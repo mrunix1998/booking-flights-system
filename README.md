@@ -166,7 +166,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9eyJpYXQiO
 | /api/v1/booking/<flight_id> | POST | Book a flight | TRUE
 | /api/v1/booking/<flight_id>?bdate=Jul 02 2020 | GET | Get flight booking for a particular day | TRUE
 
-**Note :** Using postman's json exoprt in postman to create some records in postgres database
+**Note :** Using postman's json export in postman to create some records in postgres database
 
 
 ### Heroku Production Link
