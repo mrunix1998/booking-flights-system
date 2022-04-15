@@ -168,7 +168,3 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9eyJpYXQiO
 
 **Note :** Using postman's json export in postman to create some records in postgres database
 
-
-### Heroku Production Link
-Interact with the hosted application using this link
-https://flight-booking-flask.herokuapp.com/
