@@ -19,7 +19,5 @@
 ```bash
 # wget https://github.com/allure-framework/allure2/releases/download/2.7.0/allure-2.7.0.zip
 # unzip allure-2.7.0.zip
-# cd unzip allure-2.7.0 
-# ./unzip allure-2.7.0/bin/allure serve ./report
-
+# ./allure-2.7.0/bin/allure serve ./report
 ```
